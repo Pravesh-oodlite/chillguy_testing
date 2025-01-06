@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm/
+
+# IDE and tools
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~undo-tree~
+*.~undo-tree~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore specific artifacts
+coverage/
+*.tgz
+
+# Generated files
+*.tsbuildinfo
