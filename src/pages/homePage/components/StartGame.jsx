@@ -1,10 +1,9 @@
-import { CustomWalletMultiButton } from "@/components/CustomWalletMultiButton";
 import { Button } from "@/components/ui/button";
 import { toast } from "@/hooks/use-toast";
 import { ROUTES } from "@/routes/routeConstant";
-import { leaderBoard, startGame } from "@/services/apiService";
+import { startGame } from "@/services/apiService";
 import { Loader2 } from "lucide-react";
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { useMutation } from "react-query";
 import { useNavigate } from "react-router-dom";
 import {
